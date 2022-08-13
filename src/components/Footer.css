@@ -1,0 +1,48 @@
+.footer {
+    margin-top: 0px auto;
+    background-color: gainsboro;
+    /* background-color: rgb(111, 101, 121); */
+    padding-top: 10px;
+    bottom: 0%;
+    height: 400PX;
+    width: 100%;
+}
+
+.middle {
+    margin-top: 60px;
+    display: flex;
+    padding-right: 10px;
+}
+
+.logo-bar {
+    display: block;
+}
+
+.cart:hover {
+    display: block;
+    color: red;
+    content: 'my cart';
+}
+
+.main {
+    margin-top: 70px;
+    display: flex;
+    height: 600px;
+}
+
+.text {
+    width: 40%;
+    /* height: 400px; */
+}
+
+.picture {
+    width: 50%;
+    display: flex;
+    margin-top: 70px;
+    /* height: 400px; */
+}
+
+.divfooter h6:hover {
+    color: tomato;
+    cursor: pointer;
+}

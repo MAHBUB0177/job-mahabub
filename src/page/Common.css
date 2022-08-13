@@ -1,0 +1,249 @@
+/* @media screen and (max-width: 1250px) {
+          #showdiv {
+              visibility: hidden;
+              display: none;
+          }
+      } */
+
+
+/* @media screen and (max-width: 600px) {
+        .banner {
+            visibility: hidden;
+            display: none;
+        }
+    } */
+
+
+/* //slider style button */
+
+
+/* .btn-1:hover{
+    width: 100px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 yellowgreen;
+    transition: ease-out 0.35;
+    font-size: 2rem;
+    outline: none;
+} */
+
+.btn-1:hover {
+    box-shadow: inset 100px 0 0 0 rebeccapurple;
+}
+
+
+/* //media query/// */
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    #my-content {
+        display: block;
+    }
+    /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+    #my-content {
+        display: none;
+    }
+    /* hide it elsewhere */
+}
+
+
+/* /////// slide banner*/
+
+@media screen and (min-width: 0px) and (max-width: 1250px) {
+    .banner {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1249px) {
+    .slide {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1250px) {
+    #showdiv {
+        display: none;
+    }
+    /* show it on small screens */
+}
+
+
+/* //quick sell */
+
+@media screen and (min-width:0px) and (max-width: 1010px) {
+    .delivery {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 1010px) {
+    .delivery {
+        width: 100%;
+    }
+}
+
+
+/* ////category */
+
+.inner {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.inner Img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover Img {
+    transform: scale(1.5);
+}
+
+.catprod {
+    overflow: hidden;
+}
+
+.catprod catbod {
+    transition: all 1.1s ease;
+}
+
+.catprod:hover img {
+    transform: scale(1.1);
+}
+
+
+/* .view-all-btn {
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+} */
+
+
+/* //opening shop */
+
+@media screen and (min-width:0px) and (max-width: 1024px) {
+    .opening {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 1024px) {
+    .bannertext {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 1010px) {
+    .logoimg {
+        width: 100%;
+    }
+}
+
+
+/* contact page */
+
+@media screen and (min-width: 0px) and (max-width: 1249px) {
+    .contactfrm {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1249px) {
+    .contactimg {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+/* ///// */
+
+@media screen and (max-width: 480px) {
+    .showimg {
+        justify-content: center;
+    }
+}
+
+a.view-all-btn {
+    background: var(--bs-success);
+    padding: 7px 30px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.showdiv:hover showdiv {
+    border-color: blueviolet;
+}
+
+@media (max-width: 576px) {
+    .founder {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* ///react slick carusel */
+
+.slick-prev {
+    z-index: 100;
+    left: 20px !important;
+}
+
+.slick-next {
+    z-index: 100px;
+    right: 20px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    background-color: black;
+}
+
+.slick-dots {
+    display: none;
+}
+
+
+/* @media screen and (max-width:667px){
+    .slick{
+
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    .slick {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+/* .slick-slide > div {
+  margin: 0 5px;
+}
+.slick-list {
+  margin: 0 -5px;
+} */
+
+
+/* //fonder of the company */
+
+#owner:hover,
+#owner:focus,
+#owner:active {
+    color: #0070f3;
+    border-color: #0070f3;
+    border: 3px solid #a83333;
+    color: tomato;
+}
